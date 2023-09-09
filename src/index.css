@@ -1,0 +1,173 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+}
+
+.formComp {
+  width: 30%;
+}
+
+.form-container {
+  display: flex;
+}
+
+.form-container div {
+  width: 50%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.form-container-active {
+  border-bottom: 3px solid rgb(109, 109, 223);
+  font-weight: 900;
+}
+
+form button {
+  background-color: rgb(109, 109, 223);
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  font-weight: 900;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+form input {
+  padding: 10px 0;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid rgb(116, 116, 116);
+  padding-left: 1.5rem;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(109, 109, 223);
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+}
+
+h5 {
+  font-weight: 100;
+  color: rgb(190, 190, 190);
+  text-align: center;
+}
+
+.icon {
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  border: 1px solid rgb(190, 190, 190);
+  padding: 12px;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#createAccountBtn {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#createAccountBtn:hover {
+  font-weight: 700;
+}
+
+h6 {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+b {
+  color: rgb(109, 109, 223);
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .formComp {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .formComp {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .formComp {
+    width: 90%;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.Beer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#searchBeer {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.beer-card {
+  width: calc(25% - 10px);
+}
+
+#beerImg {
+  width: 200px;
+  height: 270px;
+}
